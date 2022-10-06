@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         else if(str.equals("×") || str.equals("÷"))
             pri=2;
 
-        return pri;
+        return pri;//优先级
     }
 
     public String[] split() {
